@@ -285,19 +285,19 @@ a {
   width: 100%;
 }
 
-.sjzx img {
+/* .sjzx img {
   width: 280px;
   height: 350px;
-}
+} */
 
 .sjzxtp {
   width: 100%;
 }
 
-.sjzxtp img {
+/* .sjzxtp img {
   width: 270px;
   height: 350px;
-}
+} */
 
 .sjzxtp-con {
   width: 60%;
@@ -315,8 +315,8 @@ a {
 
 .c1tp img {
   float: left;
-  width: 270px;
-  height: 350px;
+  /* width: 270px;
+  height: 350px; */
 }
 
 .cwz {
@@ -337,11 +337,11 @@ a {
 .dbkhtp {
   width: 100%;
 }
-
+/* 
 .dbkhtp img {
   width: 270px;
   height: 240px;
-}
+} */
 
 .dbkhtp-con {
   width: 60%;
