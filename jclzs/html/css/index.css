@@ -62,7 +62,7 @@ ul {
 
 .sous {
   border: 2px solid #36352b;
-  height: 40px;
+  height: 44px;
   margin-left: 300px;
 }
 
@@ -98,7 +98,7 @@ ul {
 }
 
 .dh {
-  margin-top: -14px;
+  margin-top: 5px;
   font-size: 20px;
   font-weight: bolder;
   font-style: italic;
@@ -152,9 +152,9 @@ a {
   color: #efde42;
 }
 
-.lunbo {
+/* .lunbo {
   margin-top: -16px;
-}
+} */
 
 /* 
 .lunbo .bd li {
