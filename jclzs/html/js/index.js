@@ -1,11 +1,24 @@
-function aa(){
-    var a1=document.getElementById("a1");
-    a1.src="/images/a1.jpg";
-    document.getElementById("a4").innerHTML=a1;
-}
-
-function bb(){
-    var a1=document.getElementById("a2");
-    a1.src="/images/a2.jpg";
-    document.getElementById("a4").innerHTML=a2;
-}
+function changeImage(image) {
+    document.getElementById("imgTpm").src = image;
+  }
+  
+  $(function() {
+    var li = $($("#nav li")[0]);
+    li.addClass("sy");
+  
+    $("#nav li").click(function() {
+      li.removeClass("sy");
+      li = $(this);
+      li.addClass("sy");
+    });
+  
+    $("#swx").hide();
+    $("#wx")
+      .mouseover(function() {
+        $("#swx").show();
+      })
+      .mouseout(function() {
+        $("#swx").hide();
+      });
+  });
+  

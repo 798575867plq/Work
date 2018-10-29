@@ -152,27 +152,6 @@ a {
   color: #efde42;
 }
 
-/* .lunbo {
-  margin-top: -16px;
-} */
-
-/* 
-.lunbo .bd li {
-  width: 100%;
-  height: 500px;
-  position: relative;
-  overflow: hidden;
-}
-
-.lunbo .hd {
-  width: 100%;
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  z-index: 999;
-  text-align: center;
-} */
-
 .fwlc {
   width: 100%;
 }
@@ -285,19 +264,19 @@ a {
   width: 100%;
 }
 
-/* .sjzx img {
+.sjzx img {
   width: 280px;
   height: 350px;
-} */
+}
 
 .sjzxtp {
   width: 100%;
 }
 
-/* .sjzxtp img {
+.sjzxtp img {
   width: 270px;
   height: 350px;
-} */
+}
 
 .sjzxtp-con {
   width: 60%;
@@ -311,12 +290,36 @@ a {
   height: 400px;
   background-image: url("../images/star.png");
   background-repeat: no-repeat;
+  border:1px solid transparent;
+}
+
+.c1:hover{
+  border:1px solid #dcdcdc;
+  margin-top:-10px;
+  transition: all 0.5s;
+}
+
+
+.sjtp{
+  border:1px solid transparent;
+}
+
+.sjtp:hover{
+  border:1px solid #dcdcdc;
+  margin-top:-10px;
+  transition: all 0.5s;
+}
+
+.mz{
+  text-align: center;
+  font-size: 14px;
+  font-family: "微软雅黑";
 }
 
 .c1tp img {
   float: left;
-  /* width: 270px;
-  height: 350px; */
+  width: 270px;
+  height: 350px;
 }
 
 .cwz {
@@ -430,6 +433,12 @@ a {
   border:none;
   margin-bottom: 30px;
   margin-top:10px;
+}
+
+.more button:hover{
+ background-color:#333333;
+ transition: all 1s;
+ cursor: pointer;
 }
 
 .more button{
