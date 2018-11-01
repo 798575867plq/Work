@@ -1,0 +1,168 @@
+html,
+body,
+ul {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: "微软雅黑";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+ul li {
+  list-style: none;
+}
+
+.top {
+  width: 100%;
+}
+
+.contain {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.logoz {
+  font-size: 16px;
+  color: #aa1200;
+  font-weight: bolder;
+  margin-left: -90px;
+  margin-top: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lunbo {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lunbo img {
+  width: 100%;
+}
+
+.wmdfw-title {
+  line-height: 35px;
+  background: #f8f8f8;
+  margin-top: 10px;
+}
+
+.wmdfw {
+  width: 100%;
+}
+
+.d1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.d1 img {
+  width: 95%;
+}
+
+.ms {
+  text-align: center;
+  color: #aa1200;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.hr1 {
+  margin-left: 10px;
+  border: 3px solid #aa1200;
+}
+
+.xwzxwz {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.dayu {
+  font-size: 1.5em;
+}
+
+.gywmnr {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.zuotu {
+  width: 100%;
+}
+
+.zuotu1 {
+  width: 75%;
+}
+
+.zuotu1 img {
+  width: 94%;
+}
+
+.zuotu2 {
+  width: 25%;
+}
+
+.zuotu2 img {
+  width: 100%;
+}
+
+.xwzx {
+  width: 100%;
+}
+
+.xwzxnr {
+  margin-top: 10px;
+  line-height: 1.5rem;
+}
+.xwzxnr ul {
+  padding: 0;
+}
+.xwzxnr p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.xwzxnr .juti {
+  color: #83868b;
+  font-size: 14px;
+}
+
+.foot {
+  margin-top: 10px;
+  width: 100%;
+  background: #151515;
+  padding: 10px 0px;
+}
+
+.foot p {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  line-height: 5px;
+}
