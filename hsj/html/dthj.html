@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>答题环节</title>
+    <link rel="stylesheet" href="css/index1.css" />
+  </head>
+  <body onload="restart();">
+    <div>
+      <div class="top"><img src="images/tou.png" alt="" /></div>
+      <div class="contain">
+        <div class="dthj">答题环节</div>
+
+        <div class="djs">
+          <img src="images/djs.png" alt="" />
+          <div class="djswz">倒计时：<span id="spTime"></span></div>
+        </div>
+
+        <div class="timu">
+          <div class="question">
+            <img src="images/hdx.png" alt="" />
+            <span class="qwz"> 机动车闯红灯，给予哪种处罚？</span>
+          </div>
+          <div class="answer" id="b1">
+            <div class="a1">记3分</div>
+            <div class="a1">记6分</div>
+            <div class="a1">记12分</div>
+            <div class="a1">不记分</div>
+          </div>
+          <div class="question">
+            <img src="images/hdx.png" alt="" />
+            <span class="qwz"> 机动车闯红灯，给予哪种处罚？</span>
+          </div>
+          <div class="answer" id="b2">
+            <div class="a1">记3分</div>
+            <div class="a1">记6分</div>
+            <div class="a1">记12分</div>
+            <div class="a1">不记分</div>
+          </div>
+        </div>
+
+        <div class="qrtj">
+          <input
+            type="submit"
+            value="确认提交"
+            id="frombut"
+            onclick="ShowDiv('MyDiv','fade')"
+          />
+        </div>
+
+        <!-- 弹出层时背景层DIV -->
+        <div id="fade" class="black_overlay"></div>
+        <div id="MyDiv" class="white_content">
+          <!-- <div style="text-align: right; cursor: default; height: 40px;"></div> -->
+          <div style="overflow: hidden;position: relative; height:260px;">
+            <span onclick="CloseDiv('MyDiv','fade')" class="close">关闭</span>
+            <img src="images/tan.png" alt="" style="width:100%" />
+            <div class="cj">
+              <div class="fen"></div>
+              <div class="szfen">100</div>
+              <a href="phb.html" class="ckphb"><input type="submit" value="查看当前排名榜"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="foot"><img src="images/twwl.png" alt="" /></div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript">
+      //弹出隐藏层
+      function ShowDiv(show_div, bg_div) {
+        document.getElementById(show_div).style.display = "block";
+        document.getElementById(bg_div).style.display = "block";
+        var bgdiv = document.getElementById(bg_div);
+        bgdiv.style.width = document.body.scrollWidth;
+        // bgdiv.style.height = $(document).height();
+        $("#" + bg_div).height($(document).height());
+        $("#" + bg_div).click(function() {
+          document.getElementById(show_div).style.display = "none";
+          document.getElementById(bg_div).style.display = "none";
+        });
+      }
+      //关闭弹出层
+      function CloseDiv(show_div, bg_div) {
+        document.getElementById(show_div).style.display = "none";
+        document.getElementById(bg_div).style.display = "none";
+      }
+    </script>
+  </body>
+</html>
