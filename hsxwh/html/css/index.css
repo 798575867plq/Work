@@ -1,0 +1,101 @@
+html,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  overflow-x: hidden;
+}
+
+.top {
+  width: 100%;
+}
+
+.top1 {
+  margin-top: -5px;
+}
+
+.top img {
+  width: 100%;
+}
+
+.contain {
+  background: url("../images/body.png");
+  background-size: 100%;
+}
+
+.contain1 {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.gywmwz {
+  text-align: center;
+  font-size: 24px;
+  color: #222;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-family: "pangmenzhengdao";
+}
+
+.gywm img {
+  width: 100%;
+}
+
+.gywmnr p {
+  text-indent: 2em;
+  color: #666;
+  line-height: 24px;
+}
+
+.xtb {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.xtb img {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.a1 {
+  width: 30%;
+  margin-top: 12px;
+}
+
+.xxms {
+  color: #232323;
+  font-size: 14px;
+  text-align: center;
+  font-family: "微软雅黑";
+}
+
+.d1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+  margin-top: -171px;
+}
+
+.w30 {
+  width: 33%;
+}
+
+.w60 {
+  width: 66%;
+}
+
+.clear {
+  clear: both;
+}
