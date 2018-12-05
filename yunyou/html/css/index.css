@@ -1,0 +1,257 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  overflow-x: hidden;
+}
+
+.top {
+  background-color: #f5f6f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.top1 {
+  width: 90%;
+  height: 22px;
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.top1 a {
+  text-decoration: none;
+}
+
+.top1 img {
+  width: 7%;
+  margin-top: 4px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.more {
+  font-size: 18px;
+  color: #36adfd;
+}
+
+.showmore {
+  display: none;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  
+}
+
+.d2 {
+  display: flex;
+  line-height: 40px;
+  width: 90%;
+  font-size: 16px;
+  margin: 10px auto;
+  height: 40px;
+}
+
+.d2 .zuo {
+  flex-grow: 3;
+}
+
+.d2 .you {
+  width: 22%;
+}
+
+.d2 img {
+  width: 29%;
+  margin-top: 10px;
+}
+
+.rzyn {
+  width: 90%;
+  border: 2px solid #36adfd;
+  border-radius: 8px;
+  height: 35px;
+  margin: 10px auto;
+  color: #36adfd;
+}
+
+.ri {
+  width: 23.3%;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+}
+
+.zhou {
+  border-right: 2px solid #36adfd;
+  border-left: 2px solid #36adfd;
+}
+
+.yue {
+  border-right: 2px solid #36adfd;
+}
+
+.rili {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.rili img {
+  width: 10%;
+  width: 10%;
+  float: left;
+}
+
+.rili .you {
+  float: right;
+}
+
+.rili .zhong {
+  width: 80%;
+  text-align: center;
+  float: left;
+  margin-top: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.gjjl {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #2172de;
+  border-radius: 8px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.gjjl .zuo {
+  width: 75%;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.gjjl .you {
+  width: 14%;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.jlph {
+  margin-left: 5%;
+  color: #91928d;
+}
+
+.phb {
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dfe3e2;
+}
+
+.phb .bmph {
+  width: 50%;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+}
+
+.d1 {
+  display: flex;
+  line-height: 40px;
+  width: 90%;
+  font-size: 16px;
+  margin: 10px auto;
+  height: 40px;
+}
+
+.d1 .mc {
+  flex-grow: 0.5;
+}
+
+.d1 .mz {
+  flex-grow: 3;
+}
+
+.d1 .tx {
+  background-color: #f7c228;
+  border-radius: 100%;
+  width: 16%;
+  margin-right: 10px;
+  text-align: center;
+  float: left;
+}
+
+.d1 .cs {
+  width: 17%;
+}
+
+.fl {
+  float: left;
+}
+
+.d1 img {
+  width: 46%;
+  margin-top: 8px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #dfe3e2;
+  margin: 0px;
+}
+
+/* 切换 */
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+}
+.tabClick {
+  overflow: hidden;
+  font-size: 18px;
+}
+.tabClick li {
+  /* height: 40px;
+  line-height: 40px; */
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.tabClick li.active {
+  color: #49a7ed;
+  transition: 0.1s;
+}
+.tabCon {
+  overflow: hidden;
+}
+.tabBox {
+  position: relative;
+}
+.tabList {
+  word-break: break-all;
+  width: 100%;
+  float: left;
+  line-height: 100px;
+  /* text-align: center; */
+  color: #292929;
+  font-size: 36px;
+}
+.lineBorder {
+  height: 2px;
+  overflow: hidden;
+  background: #f3f3f3;
+}
+.lineDiv {
+  background: #49a7ed;
+  height: 2px;
+  width: 50%;
+}

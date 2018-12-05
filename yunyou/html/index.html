@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <script>
+      $(function() {
+        $("#more").click(function() {
+          $("#show").slideToggle(100);
+        });
+      });
+    </script>
+
+    <div class="top1">
+      <img src="images/lzuo.png" alt="" /> <img src="images/cha.png" alt="" />
+      <div class="title">中国邮政集团公司</div>
+      <div id="more" class="more">更多指标</div>
+    </div>
+
+    <div class="showmore" id="show">
+      <div class="d2">
+        <div class="zuo">新增客户</div>
+        <div class="you">
+          <div class="fl">316人</div>
+          <img src="images/you1.png" alt="" />
+        </div>
+      </div>
+      <hr />
+      <div class="d2">
+        <div class="zuo">新增客户</div>
+        <div class="you">
+          <div class="fl">316人</div>
+          <img src="images/you1.png" alt="" />
+        </div>
+      </div>
+      <hr />
+      <div class="d2">
+        <div class="zuo">新增客户</div>
+        <div class="you">
+          <div class="fl">316人</div>
+          <img src="images/you1.png" alt="" />
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="top">
+      <div class="rzyn">
+        <div class="ri">日</div>
+        <div class="ri zhou">周</div>
+        <div class="ri yue">月</div>
+        <div class="ri">年</div>
+      </div>
+
+      <div class="rili">
+        <img src="images/zuo1.png" alt="" />
+        <div class="zhong">昨日(2018.12.05)</div>
+        <img src="images/you1.png" alt="" class="you" />
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="gjjl">
+        <div class="zuo">日跟进记录</div>
+        <div class="you">5次</div>
+      </div>
+
+      <div class="jlph">跟进记录排行</div>
+    </div>
+
+    <!--
+      <div class="phb">
+        <div class="bmph">部门排行</div>
+        <div class="bmph">员工排行</div>
+        <div class="clear"></div>
+      </div>
+    -->
+
+    <div class="wrap" id="wrap">
+      <ul class="tabClick">
+        <li class="active">部门排行</li>
+        <li>员工排行</li>
+      </ul>
+      <div class="lineBorder">
+        <div class="lineDiv"><!-- 移动的div --></div>
+      </div>
+      <div class="tabCon">
+        <div class="tabBox">
+          <div class="tabList">
+            <div class="jtph">
+              <div class="d1">
+                <div class="mc">1</div>
+                <div class="mz">政企客服部</div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+              <div class="d1">
+                <div class="mc">2</div>
+                <div class="mz">党委党建工作部</div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+              <div class="d1">
+                <div class="mc">3</div>
+                <div class="mz">政企客服部</div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+              <div class="d1">
+                <div class="mc">4</div>
+                <div class="mz">政企客服部</div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="tabList">
+            <div class="jtph">
+              <div class="d1">
+                <div class="mc">1</div>
+                <div class="mz">
+                  <div class="tx">张三</div>
+                  <span> 张三三</span>
+                </div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+              <div class="d1">
+                <div class="mc">2</div>
+                <div class="mz">
+                  <div class="tx">张三</div>
+                  <span> 张三三</span>
+                </div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+              <div class="d1">
+                <div class="mc">3</div>
+                <div class="mz">
+                  <div class="tx">张三</div>
+                  <span> 张三三</span>
+                </div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+              <div class="d1">
+                <div class="mc">4</div>
+                <div class="mz">
+                  <div class="tx">张三</div>
+                  <span> 张三三</span>
+                </div>
+                <div class="cs">
+                  <div class="fl">5次</div>
+                  <img src="images/you1.png" alt="" />
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      <div class="jtph">
+        <div class="d1">
+          <div class="mc">1</div>
+          <div class="mz">政企客服部</div>
+          <div class="cs">5次></div>
+        </div>
+        <hr />
+        <div class="d1">
+          <div class="mc">2</div>
+          <div class="mz">党委党建工作部</div>
+          <div class="cs">1次></div>
+        </div>
+        <hr />
+        <div class="d1">
+          <div class="mc">3</div>
+          <div class="mz">政企客服部</div>
+          <div class="cs">1次></div>
+        </div>
+        <hr />
+        <div class="d1">
+          <div class="mc">4</div>
+          <div class="mz">政企客服部</div>
+          <div class="cs">5次></div>
+        </div>
+        <hr />
+      </div>
+    -->
+  </body>
+</html>
