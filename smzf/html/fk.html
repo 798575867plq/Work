@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>付款</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/jquery.min.js"></script>
+  </head>
+  <body class="body">
+    <script>
+      $(function() {
+        $("#b1 #a1").click(function() {
+          $("#b1 #a1").css("background-color", "#cccccc");
+          $(this).css("background-color", "#009900");
+        });
+      });
+
+      function aa() {
+        var a;
+        a = document.getElementById("money").value;
+        if (a == "" || isNaN(a)) {
+          document.getElementById("fk").style.background = "#a3dea3";
+        } else {
+          document.getElementById("fk").style.background = "#009900";
+        }
+      }
+    </script>
+    <div class="tou">
+      <div class="zt flex">
+        <div class="jt"><img src="images/hjt.png" alt="" /></div>
+        <div class="pay">付款</div>
+      </div>
+    </div>
+    <div class="zt">
+      <div class="sj">
+        <div class="fkgsj">付款给商家</div>
+        <div class="sjname">商家名称</div>
+      </div>
+      <div class="type">
+        <div class="lx">类型</div>
+        <div class="xzbar flex" id="b1">
+          <div class="xz xz1" id="a1">烟酒</div>
+          <div class="xz" id="a1">茶水</div>
+          <div class="xz" id="a1">服饰</div>
+        </div>
+      </div>
+      <div class="type">
+        <div class="lx">金额</div>
+        <div class="jin flex">
+          <div class="mon"><img src="images/money.png" alt="" /></div>
+          <div class="shuru"><input type="text" placeholder="输入金额" id="money"  onchange="aa();"/></div>
+        </div>
+      </div>
+      <div class="type">
+        <input type="submit" value="付款" class="fk" id="fk" />
+      </div>
+    </div>
+  </body>
+</html>

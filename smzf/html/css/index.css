@@ -1,0 +1,347 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "微软雅黑";
+}
+
+.clear{
+  clear: both;
+}
+
+/* 商家入驻页面 */
+
+.bo {
+  background-color: #f5f5f5;
+}
+
+.bai {
+  background-color: #fff;
+}
+
+.zt {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.yyzz {
+  padding-top: 10px;
+}
+
+.yy {
+  margin-left: 6px;
+}
+
+.djsc {
+  text-align: center;
+  border: 1px dashed #666;
+  padding-top: 20px;
+  margin-top: 20px;
+  color: #d1d1d1;
+}
+
+.djsc input {
+  width: 0px;
+  height: 0px;
+}
+
+.bd {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.xh {
+  color: #e8383e;
+}
+
+.bd input {
+  width: 94%;
+  border: none;
+  border-bottom: 1px solid #666;
+
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.wctj {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.wctj input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #009900;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* 扫码页面 */
+.bj {
+  background-color: #25aa38;
+  width: 100%;
+}
+
+.wxz {
+  width: 100%;
+}
+
+.wxz img {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 80px;
+}
+
+.ewm {
+  padding-bottom: 90px;
+}
+
+.ewm img {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 60px;
+}
+
+.sjmc {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+}
+
+/* 自助付款页面 */
+.sjdd {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  color: #1b1a20;
+  font-size: 18px;
+}
+
+.money {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.juti {
+  width: 100%;
+  background-color: #fff;
+}
+
+.juti .zuo {
+  width: 50%;
+}
+
+.juti .you {
+  width: 50%;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.juti .a1 {
+  padding: 10px;
+}
+
+/* 收支明细页面 */
+.a2 {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.a2 .zuo {
+  font-size: 14px;
+  width: 75%;
+}
+
+.a2 .zuox {
+  color: #cecece;
+}
+
+.a2 .you {
+  font-size: 18px;
+  width: 20%;
+  text-align: right;
+  padding-top: 8px;
+}
+
+.a2 .jia {
+  color: #56be65;
+}
+
+.a2 .jian {
+  color: #e8383e;
+}
+
+/* 付款 */
+.tou {
+  background-color: #f2f2f4;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.jt img {
+  width: 50%;
+  margin-right: 6px;
+}
+
+.pay {
+  font-size: 20px;
+}
+
+.body {
+  background-color: #f5f5f5;
+}
+
+.sj {
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+
+.fkgsj {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sjname {
+  color: #888;
+}
+
+.type {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.lx {
+  margin-bottom: 10px;
+}
+
+.xzbar {
+  justify-content: space-between;
+}
+
+.xz {
+  width: 25%;
+  background-color: #cccccc;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.xz1{
+  background-color: #009900;
+}
+
+.jin {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.jin img{
+  width:6%;
+}
+
+.jin input {
+  line-height: 40px;
+  border: none;
+  font-size: 22px;
+  padding-left: 10px;
+  width:96%;
+}
+
+.mon{
+  width:6%;
+}
+
+.mon img{
+  width:100%;
+  margin-top: 8px;
+}
+
+.shuru{
+  width:94%;
+}
+
+.fk {
+  width: 100%;
+  border: none;
+  background-color: #a3dea3;
+  color: #fff;
+  font-size: 20px;
+  line-height: 34px;
+  border-radius: 5px;
+}
+
+/* 商家后台 */
+.tou1{
+  background-color: #1b1a20;
+  width: 100%;
+  padding-top: 8px;
+  color: #fff;
+  padding-bottom: 4px;
+}
+
+.ht{
+  font-size: 20px;
+  margin-left: 33%;
+}
+
+.ss{
+  margin-top:10px;
+}
+
+.xiala{
+  height: 38px;
+  border:none;
+  border:1px solid #b1b1b1;
+  border-radius: 6px;
+  width:36%;
+}
+
+.ss .ksss{
+  background-color: #5fb878;
+  color: #fff;
+  border:none;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 6px;
+  width:22%;
+}
+
+.btou{
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e3;
+  color: #888888;
+}
+
+.date{
+  text-align: center;
+  width:33%;
+  line-height: 40px;
+}
+
+
+.ds div:nth-child(even).bg{
+  background-color: #fafafb;
+}
+
+.fr{
+  float: right;
+  margin-right: 24px;
+  font-size: 14px;
+  margin-top: 10px;
+}
