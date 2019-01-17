@@ -1,0 +1,189 @@
+/* 头部 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w70 {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  width: 100%;
+}
+
+.logo {
+  width: 20%;
+  margin: 0px auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.bgimage {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
+
+.nav {
+  width: 100%;
+  background-color: #b52323;
+  border-bottom: 4px solid #e82424;
+  padding-top: 8px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  line-height: 22px;
+  justify-content: space-between;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+.navbar li a {
+  color: #fff;
+}
+
+.en {
+  display: block;
+  font-size: 12px;
+  color: #db9292;
+}
+
+/* 头部结束 */
+
+/* 底部 */
+.foot {
+  background-color: #212121;
+  width: 100%;
+  border-top: 4px solid #e82424;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.foot_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot_logo {
+  width: 10%;
+}
+
+.foot_logo img {
+  width: 100%;
+}
+
+.foot_word {
+  flex-grow: 3;
+  color: #f9f9f9;
+  padding-top: 15px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+.foot_link a{
+  color: #f9f9f9;
+}
+
+.foot_bei {
+  color: #606060;
+}
+
+.foot_gz {
+  width: 7%;
+  padding-top: 10px;
+}
+
+.foot_gz img {
+  width: 100%;
+}
+
+.foot_gzwm {
+  text-align: center;
+  color: #f9f9f9;
+}
+
+/* 底部结束 */
+
+/* 拳手介绍 */
+.boxer {
+  width: 28%;
+}
+
+.boxer_title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid #b52323;
+  border-bottom: 1px dashed #eeeeee;
+}
+
+.boxer_titleMz {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.boxer_titleMz a {
+  color: #333333;
+}
+
+.boxer_more a {
+  color: #333333;
+}
+
+.boxer_art {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.boxer_artImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.boxer_artImg img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.boxer_artWord {
+  width: 63%;
+}
+
+.boxer_artMzch {
+  margin-top: 20px;
+  color: #ea3131;
+}
+
+.boxer_artMzen {
+  color: #333333;
+}
+
+.boxer_artSm {
+  color: #666666;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 拳手介绍结束 */

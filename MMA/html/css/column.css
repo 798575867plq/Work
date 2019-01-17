@@ -1,0 +1,266 @@
+/* 关于我们页面 */
+.gywm_cont {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.gywm_title {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #333333;
+  text-align: center;
+}
+
+.gywm_title span {
+  border-bottom: 3px solid #b52323;
+}
+
+.gywm_art {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.gywm_photo {
+  width: 100%;
+}
+
+.gywm_photo_left {
+  width: 59%;
+}
+
+.gywm_photo_left img {
+  width: 100%;
+  height: 404px;
+}
+
+.gywm_photo_right {
+  width: 40%;
+}
+
+.gywm_photo_right img {
+  width: 100%;
+  height: 200px;
+}
+
+/* 关于我们页面结束 */
+
+/* 赛事介绍页面 */
+.match {
+  width: 70%;
+}
+
+.macth_time {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.macth_time ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.macth_time ul li {
+  padding-right: 10px;
+}
+
+.macth_time ul li a {
+  color: #181818;
+}
+
+.match_art {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.match_artImg {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.match_artImg img {
+  width: 100%;
+  height: 158px;
+}
+
+.match_artWord {
+  width: 70%;
+  padding-top: 10px;
+}
+
+.match_artTitle {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.match_artTitle a {
+  color: #332c2b;
+}
+
+.match_artCont {
+  padding-top: 10px;
+  color: #333333;
+}
+
+.match_artTime {
+  padding-top: 10px;
+  color: #e82424;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+/* 赛事介绍页面结束 */
+
+/* 联系我们页面 */
+.lxwm {
+  margin-top: 50px;
+}
+
+.lxwm_cont {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  line-height: 35px;
+}
+
+.lxwm_title {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.lxwm_title span {
+  border-bottom: 3px solid #b52323;
+}
+
+/* 联系我们页面结束 */
+
+/* 合作伙伴页面 */
+.hzhb_cont {
+  width: 70%;
+}
+
+.hzhb_title {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.hzhb_title span {
+  border-bottom: 3px solid #b52323;
+}
+
+.hzhb_icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hzhb_icon {
+  width: 23%;
+  margin-right: 18px;
+  margin-top: 25px;
+}
+
+.hzhb_icon img {
+  width: 100%;
+}
+
+
+/* 合作伙伴页面结束 */
+
+/* 拳手介绍页面 */
+.qsjs_lj {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.qsjs_lj span {
+  width: 8%;
+}
+
+.qsjs_lj ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qsjs_lj ul li {
+  padding-right: 10px;
+  width: 13%;
+}
+
+.qsjs_lj ul li a {
+  color: #181818;
+}
+
+.qsjs_gj {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.qsjs_gj ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qsjs_gj ul li {
+  padding-right: 10px;
+}
+
+.qsjs_gj ul li a {
+  color: #181818;
+}
+
+.qsjs_art {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+  width:95%;
+}
+
+.qsjs_tx {
+  width: 18%;
+}
+
+.qsjs_tx img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.qsjs_word{
+  padding-left: 10px;
+  width: 80%;
+}
+
+.qsjs_info{
+  padding-top:10px;
+}
+
+.qsjs_name {
+  color: #444444;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.qsjs_hw{
+  color: #cacaca;
+}
+
+.qsjs_introduce{
+  padding-top: 10px;
+  line-height: 30px;
+  color: #ababa6;
+}
+
+/* 拳手介绍页面结束 */

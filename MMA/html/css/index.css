@@ -1,0 +1,304 @@
+.photos {
+  margin-top: 10px;
+}
+
+.photos_left {
+  width: 50%;
+  position: relative;
+}
+
+.photos_left img {
+  width: 100%;
+  height: 400px;
+
+}
+
+.photos_right {
+  width: 50%;
+  position: relative;
+}
+
+.photos_right img {
+  width: 100%;
+  height: 200px;
+  
+}
+
+.r_top{
+  width:100%;
+}
+
+.r_bot{
+  margin-top:-4px;
+}
+
+.mask {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  background-color: rgba(12, 8, 15, 0.3);
+  color: #fff;
+  margin-top:-34px;
+}
+
+/* 图片集结束 */
+
+.matchBoxer {
+  margin-top: 10px;
+}
+
+.match {
+  width: 70%;
+}
+
+.match_title {
+  width: 100%;
+}
+
+.match_titleMz {
+  background-image: url("../images/lanmu.png");
+  background-repeat: no-repeat;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 13px;
+  padding-bottom: 8px;
+  width: 13%;
+}
+
+.match_titleMz a {
+  color: #fff;
+}
+
+.match_more {
+  border-bottom: 1px solid #959595;
+  font-size: 12px;
+  width: 87%;
+  text-align: right;
+  line-height: 45px;
+}
+
+.match_more a {
+  color: #333333;
+}
+
+.match_art {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.match_artImg {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.match_artImg img {
+  width: 100%;
+  height: 158px;
+}
+
+.match_artWord {
+  width: 70%;
+  padding-top: 10px;
+}
+
+.match_artTitle {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.match_artTitle a {
+  color: #332c2b;
+}
+
+.match_artCont {
+  padding-top: 10px;
+  color: #333333;
+}
+
+.match_artTime {
+  text-align: right;
+  padding-top: 10px;
+  color: #999999;
+}
+
+/* 赛事介绍结束 */
+
+.boxer {
+  width: 28%;
+}
+
+.boxer_title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid #b52323;
+  border-bottom: 1px dashed #eeeeee;
+}
+
+.boxer_titleMz {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.boxer_titleMz a {
+  color: #333333;
+}
+
+.boxer_more a {
+  color: #333333;
+}
+
+.boxer_art {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.boxer_artImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.boxer_artImg img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.boxer_artWord {
+  width: 63%;
+}
+
+.boxer_artMzch {
+  margin-top: 20px;
+  color: #ea3131;
+}
+
+.boxer_artMzen {
+  color: #333333;
+}
+
+.boxer_artSm {
+  color: #666666;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 拳手介绍结束 */
+.moment {
+  margin-top: 10px;
+}
+
+.moment_titleMz {
+  background-image: url("../images/lanmu.png");
+  background-repeat: no-repeat;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 13px;
+  padding-bottom: 8px;
+  width: 8%;
+}
+
+.moment_titleMz a {
+  color: #fff;
+}
+
+.moment_more {
+  border-bottom: 1px solid #959595;
+  font-size: 12px;
+  width: 90%;
+  text-align: right;
+  line-height: 45px;
+}
+
+.moment_more a {
+  color: #333333;
+}
+
+.moment_photos {
+  margin-top: 10px;
+}
+
+.moment_photos_left {
+  width: 50%;
+  position: relative;
+}
+
+.moment_photos_left img {
+  width: 100%;
+  height: 410px;
+}
+
+.moment_photos_right {
+  width: 49%;
+  position: relative;
+}
+
+.moment_photos_right img {
+  width: 100%;
+  height: 200px;
+}
+
+.mr_bot {
+  margin-top: 5px;
+}
+
+.photos1 {
+  margin-top: 5px;
+}
+
+.photos1_ju {
+  width: 24%;
+  position: relative;
+}
+
+.photos1 img {
+  width: 100%;
+  height: 200px;
+}
+
+/* 精彩瞬间结束 */
+
+.partner_link {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.partner {
+  margin-top: 20px;
+}
+
+.partner_photo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* 合作伙伴结束 */
+.link {
+  margin-top: 20px;
+}
+
+.link_ju {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link_juti {
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.link_juti a {
+  color: #333333;
+}
+
+/* 友情链接结束 */
