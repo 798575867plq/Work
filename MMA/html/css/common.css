@@ -20,6 +20,7 @@ a {
 
 .top {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -74,6 +75,7 @@ a {
   border-top: 4px solid #e82424;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top:20px;
 }
 
 .foot_cont {
